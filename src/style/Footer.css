@@ -1,0 +1,37 @@
+@import url('../App.css');
+
+.footer {
+    padding: 0 0 10px 0;
+    background-color: #064635;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #B8B8B8;
+    letter-spacing: 0.5px;
+}
+
+.social-icon {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.social-icon a {
+    width: 42px;
+    height: 42px;
+    display: inline-flex;
+    margin-right: 6px;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.social-icon a img {
+    width: 50%;
+}
